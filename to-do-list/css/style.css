@@ -19,7 +19,7 @@ body{
     flex-direction: column;
     background-color : var(--light-blue);
     min-height: 100vh;
-    color: var(--dark-blue);
+    color: var(--light);
 }
 
 header{
