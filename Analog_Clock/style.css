@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #232322; */
+    background-image: linear-gradient(283deg, rgba(228, 228, 228,0.04) 0%, rgba(228, 228, 228,0.04) 30%,rgba(130, 130, 130,0.04) 30%, rgba(130, 130, 130,0.04) 49%,rgba(31, 31, 31,0.04) 49%, rgba(31, 31, 31,0.04) 100%),linear-gradient(297deg, rgba(228, 228, 228,0.04) 0%, rgba(228, 228, 228,0.04) 20%,rgba(130, 130, 130,0.04) 20%, rgba(130, 130, 130,0.04) 60%,rgba(31, 31, 31,0.04) 60%, rgba(31, 31, 31,0.04) 100%),linear-gradient(242deg, rgba(228, 228, 228,0.04) 0%, rgba(228, 228, 228,0.04) 29%,rgba(130, 130, 130,0.04) 29%, rgba(130, 130, 130,0.04) 48%,rgba(31, 31, 31,0.04) 48%, rgba(31, 31, 31,0.04) 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+    min-height: 100vh;
+}
+.clock{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-image: url("img/clock.png");
+    background-size: cover;
+    position: relative;
+    border: 2px solid #f0f0f0;
+}
+.second-hand{
+    height: 140px;
+    width: 1px;
+    background-color: #e2f3f5;
+    position: absolute;
+    left: 149px;
+    bottom: 150px;
+    transform-origin: 0% 100%;
+}
+.minute-hand{
+    height: 110px;
+    width: 2px;
+    background-color: #22d1ee;
+    position: absolute;
+    left: 149px;
+    bottom: 149px;
+    transform-origin: 0% 100%;
+}
+.hour-hand{
+    height: 70px;
+    width: 4px;
+    background-color: #fcefee;
+    position: absolute;
+    left: 148px;
+    bottom: 148px;
+    transform-origin: 0% 100%;
+}
+.center{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #364f6b;
+    position: absolute;
+    left: 143px;
+    bottom: 143px;
+}
